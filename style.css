@@ -79,3 +79,23 @@ html, body {
     font-size: 14px;
     color: #4D5562;
 }
+
+@media (max-width: 600px) {
+    .title h1 {
+        font-size: 28px;
+    }
+
+    .article-item {
+        margin-bottom: 20px;
+    }
+
+    .article-image {
+        max-width: 130px;
+        height: 120px;
+        margin-right: 20px;
+    }
+
+    .article-text {
+        font-size: 15px;
+    }
+}
